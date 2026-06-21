@@ -1,0 +1,274 @@
+{
+  "React": [
+    [
+      {
+        "label": "Rendu initial (100 tâches)",
+        "duration": 78.5
+      },
+      {
+        "label": "Rendu initial (500 tâches)",
+        "duration": 127.2
+      },
+      {
+        "label": "Rendu initial (1000 tâches)",
+        "duration": 198
+      },
+      {
+        "label": "Mise à jour de 50 tâches",
+        "duration": 49
+      },
+      {
+        "label": "Suppression de 50 tâches",
+        "duration": 43.9
+      }
+    ],
+    [
+      {
+        "label": "Rendu initial (100 tâches)",
+        "duration": 23.5
+      },
+      {
+        "label": "Rendu initial (500 tâches)",
+        "duration": 56.9
+      },
+      {
+        "label": "Rendu initial (1000 tâches)",
+        "duration": 84.4
+      },
+      {
+        "label": "Mise à jour de 50 tâches",
+        "duration": 31.5
+      },
+      {
+        "label": "Suppression de 50 tâches",
+        "duration": 21.1
+      }
+    ],
+    [
+      {
+        "label": "Rendu initial (100 tâches)",
+        "duration": 22.8
+      },
+      {
+        "label": "Rendu initial (500 tâches)",
+        "duration": 55.6
+      },
+      {
+        "label": "Rendu initial (1000 tâches)",
+        "duration": 97.9
+      },
+      {
+        "label": "Mise à jour de 50 tâches",
+        "duration": 35.4
+      },
+      {
+        "label": "Suppression de 50 tâches",
+        "duration": 34.4
+      }
+    ]
+  ],
+  "Vue": [
+    [
+      {
+        "label": "Rendu initial (100 tâches)",
+        "duration": 22
+      },
+      {
+        "label": "Rendu initial (500 tâches)",
+        "duration": 62.8
+      },
+      {
+        "label": "Rendu initial (1000 tâches)",
+        "duration": 119.3
+      },
+      {
+        "label": "Mise à jour de 50 tâches",
+        "duration": 27.7
+      },
+      {
+        "label": "Suppression de 50 tâches",
+        "duration": 50.8
+      }
+    ],
+    [
+      {
+        "label": "Rendu initial (100 tâches)",
+        "duration": 20.5
+      },
+      {
+        "label": "Rendu initial (500 tâches)",
+        "duration": 71.7
+      },
+      {
+        "label": "Rendu initial (1000 tâches)",
+        "duration": 120.3
+      },
+      {
+        "label": "Mise à jour de 50 tâches",
+        "duration": 29.5
+      },
+      {
+        "label": "Suppression de 50 tâches",
+        "duration": 41.2
+      }
+    ],
+    [
+      {
+        "label": "Rendu initial (100 tâches)",
+        "duration": 23.8
+      },
+      {
+        "label": "Rendu initial (500 tâches)",
+        "duration": 61.2
+      },
+      {
+        "label": "Rendu initial (1000 tâches)",
+        "duration": 115
+      },
+      {
+        "label": "Mise à jour de 50 tâches",
+        "duration": 28
+      },
+      {
+        "label": "Suppression de 50 tâches",
+        "duration": 35.5
+      }
+    ]
+  ],
+  "Svelte": [
+    [
+      {
+        "label": "Rendu initial (100 tâches)",
+        "duration": 34
+      },
+      {
+        "label": "Rendu initial (500 tâches)",
+        "duration": 75.2
+      },
+      {
+        "label": "Rendu initial (1000 tâches)",
+        "duration": 236.9
+      },
+      {
+        "label": "Mise à jour de 50 tâches",
+        "duration": 28.2
+      },
+      {
+        "label": "Suppression de 50 tâches",
+        "duration": 33.4
+      }
+    ],
+    [
+      {
+        "label": "Rendu initial (100 tâches)",
+        "duration": 23.3
+      },
+      {
+        "label": "Rendu initial (500 tâches)",
+        "duration": 80.3
+      },
+      {
+        "label": "Rendu initial (1000 tâches)",
+        "duration": 189.2
+      },
+      {
+        "label": "Mise à jour de 50 tâches",
+        "duration": 27
+      },
+      {
+        "label": "Suppression de 50 tâches",
+        "duration": 33.5
+      }
+    ],
+    [
+      {
+        "label": "Rendu initial (100 tâches)",
+        "duration": 41.5
+      },
+      {
+        "label": "Rendu initial (500 tâches)",
+        "duration": 117.7
+      },
+      {
+        "label": "Rendu initial (1000 tâches)",
+        "duration": 172.3
+      },
+      {
+        "label": "Mise à jour de 50 tâches",
+        "duration": 33.5
+      },
+      {
+        "label": "Suppression de 50 tâches",
+        "duration": 33.3
+      }
+    ]
+  ],
+  "Angular": [
+    [
+      {
+        "label": "Rendu initial (100 tâches)",
+        "duration": 54.3
+      },
+      {
+        "label": "Rendu initial (500 tâches)",
+        "duration": 93.6
+      },
+      {
+        "label": "Rendu initial (1000 tâches)",
+        "duration": 175.7
+      },
+      {
+        "label": "Mise à jour de 50 tâches",
+        "duration": 46.5
+      },
+      {
+        "label": "Suppression de 50 tâches",
+        "duration": 33.6
+      }
+    ],
+    [
+      {
+        "label": "Rendu initial (100 tâches)",
+        "duration": 57.5
+      },
+      {
+        "label": "Rendu initial (500 tâches)",
+        "duration": 100.3
+      },
+      {
+        "label": "Rendu initial (1000 tâches)",
+        "duration": 186.2
+      },
+      {
+        "label": "Mise à jour de 50 tâches",
+        "duration": 41.2
+      },
+      {
+        "label": "Suppression de 50 tâches",
+        "duration": 39.2
+      }
+    ],
+    [
+      {
+        "label": "Rendu initial (100 tâches)",
+        "duration": 37
+      },
+      {
+        "label": "Rendu initial (500 tâches)",
+        "duration": 109.5
+      },
+      {
+        "label": "Rendu initial (1000 tâches)",
+        "duration": 208.2
+      },
+      {
+        "label": "Mise à jour de 50 tâches",
+        "duration": 31.8
+      },
+      {
+        "label": "Suppression de 50 tâches",
+        "duration": 37.5
+      }
+    ]
+  ]
+}

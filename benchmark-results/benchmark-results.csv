@@ -1,0 +1,6 @@
+Métrique,React,Vue,Svelte,Angular
+Rendu initial (100 tâches),23.15,22.15,32.4,47.25
+Rendu initial (500 tâches),56.25,66.45,99.0,104.9
+Rendu initial (1000 tâches),91.15,117.65,180.75,197.2
+Mise à jour de 50 tâches,33.45,28.75,30.25,36.5
+Suppression de 50 tâches,27.75,38.35,33.4,38.35

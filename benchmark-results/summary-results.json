@@ -1,0 +1,190 @@
+{
+  "React": {
+    "Rendu initial (100 tâches)": {
+      "mean": 23.15,
+      "min": 22.8,
+      "max": 23.5,
+      "values": [
+        23.5,
+        22.8
+      ]
+    },
+    "Rendu initial (500 tâches)": {
+      "mean": 56.25,
+      "min": 55.6,
+      "max": 56.9,
+      "values": [
+        56.9,
+        55.6
+      ]
+    },
+    "Rendu initial (1000 tâches)": {
+      "mean": 91.15,
+      "min": 84.4,
+      "max": 97.9,
+      "values": [
+        84.4,
+        97.9
+      ]
+    },
+    "Mise à jour de 50 tâches": {
+      "mean": 33.45,
+      "min": 31.5,
+      "max": 35.4,
+      "values": [
+        31.5,
+        35.4
+      ]
+    },
+    "Suppression de 50 tâches": {
+      "mean": 27.75,
+      "min": 21.1,
+      "max": 34.4,
+      "values": [
+        21.1,
+        34.4
+      ]
+    }
+  },
+  "Vue": {
+    "Rendu initial (100 tâches)": {
+      "mean": 22.15,
+      "min": 20.5,
+      "max": 23.8,
+      "values": [
+        20.5,
+        23.8
+      ]
+    },
+    "Rendu initial (500 tâches)": {
+      "mean": 66.45,
+      "min": 61.2,
+      "max": 71.7,
+      "values": [
+        71.7,
+        61.2
+      ]
+    },
+    "Rendu initial (1000 tâches)": {
+      "mean": 117.65,
+      "min": 115,
+      "max": 120.3,
+      "values": [
+        120.3,
+        115
+      ]
+    },
+    "Mise à jour de 50 tâches": {
+      "mean": 28.75,
+      "min": 28,
+      "max": 29.5,
+      "values": [
+        29.5,
+        28
+      ]
+    },
+    "Suppression de 50 tâches": {
+      "mean": 38.35,
+      "min": 35.5,
+      "max": 41.2,
+      "values": [
+        41.2,
+        35.5
+      ]
+    }
+  },
+  "Svelte": {
+    "Rendu initial (100 tâches)": {
+      "mean": 32.4,
+      "min": 23.3,
+      "max": 41.5,
+      "values": [
+        23.3,
+        41.5
+      ]
+    },
+    "Rendu initial (500 tâches)": {
+      "mean": 99.0,
+      "min": 80.3,
+      "max": 117.7,
+      "values": [
+        80.3,
+        117.7
+      ]
+    },
+    "Rendu initial (1000 tâches)": {
+      "mean": 180.75,
+      "min": 172.3,
+      "max": 189.2,
+      "values": [
+        189.2,
+        172.3
+      ]
+    },
+    "Mise à jour de 50 tâches": {
+      "mean": 30.25,
+      "min": 27,
+      "max": 33.5,
+      "values": [
+        27,
+        33.5
+      ]
+    },
+    "Suppression de 50 tâches": {
+      "mean": 33.4,
+      "min": 33.3,
+      "max": 33.5,
+      "values": [
+        33.5,
+        33.3
+      ]
+    }
+  },
+  "Angular": {
+    "Rendu initial (100 tâches)": {
+      "mean": 47.25,
+      "min": 37,
+      "max": 57.5,
+      "values": [
+        57.5,
+        37
+      ]
+    },
+    "Rendu initial (500 tâches)": {
+      "mean": 104.9,
+      "min": 100.3,
+      "max": 109.5,
+      "values": [
+        100.3,
+        109.5
+      ]
+    },
+    "Rendu initial (1000 tâches)": {
+      "mean": 197.2,
+      "min": 186.2,
+      "max": 208.2,
+      "values": [
+        186.2,
+        208.2
+      ]
+    },
+    "Mise à jour de 50 tâches": {
+      "mean": 36.5,
+      "min": 31.8,
+      "max": 41.2,
+      "values": [
+        41.2,
+        31.8
+      ]
+    },
+    "Suppression de 50 tâches": {
+      "mean": 38.35,
+      "min": 37.5,
+      "max": 39.2,
+      "values": [
+        39.2,
+        37.5
+      ]
+    }
+  }
+}

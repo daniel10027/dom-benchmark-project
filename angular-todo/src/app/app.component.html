@@ -1,0 +1,42 @@
+<div class="app">
+  <h1>📝 To-Do List — Angular</h1>
+
+  <form class="task-form" (ngSubmit)="addTask()">
+    <input type="text" placeholder="Nom de la tâche" [(ngModel)]="name" name="name" />
+    <select [(ngModel)]="priority" name="priority">
+      <option *ngFor="let p of PRIORITIES" [value]="p">{{ p }}</option>
+    </select>
+    <button type="submit">Ajouter</button>
+  </form>
+
+  <div class="bench-panel">
+    <button (click)="runBenchmark()" [disabled]="running()">
+      {{ running() ? 'Benchmark en cours…' : '▶ Lancer le benchmark' }}
+    </button>
+    <ng-container *ngIf="benchResults().length > 0">
+      <pre>{{ formatResults(benchResults()) }}</pre>
+      <button (click)="download()">💾 Télécharger les résultats (JSON)</button>
+    </ng-container>
+  </div>
+
+  <p class="task-count">{{ tasks().length }} tâche(s)</p>
+
+  <ul class="task-list">
+    <li *ngFor="let task of tasks()" [ngClass]="'priority-' + task.priority">
+      <ng-container *ngIf="editingId === task.id; else viewMode">
+        <input [(ngModel)]="editName" name="editName" />
+        <select [(ngModel)]="editPriority" name="editPriority">
+          <option *ngFor="let p of PRIORITIES" [value]="p">{{ p }}</option>
+        </select>
+        <button (click)="saveEdit(task.id)">✔ Enregistrer</button>
+        <button (click)="cancelEdit()">✖ Annuler</button>
+      </ng-container>
+      <ng-template #viewMode>
+        <span class="task-name">{{ task.name }}</span>
+        <span class="task-priority">{{ task.priority }}</span>
+        <button (click)="startEdit(task)">✎ Modifier</button>
+        <button (click)="removeTask(task.id)">🗑 Supprimer</button>
+      </ng-template>
+    </li>
+  </ul>
+</div>

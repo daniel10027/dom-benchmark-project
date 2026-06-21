@@ -1,0 +1,9 @@
+{
+  "name": "bench-runner",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Script Puppeteer pour rejouer automatiquement les 4 benchmarks (React/Vue/Svelte/Angular) et produire raw-results.json",
+  "dependencies": {
+    "puppeteer-core": "^24.0.0"
+  }
+}
