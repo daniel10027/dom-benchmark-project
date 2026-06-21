@@ -22,10 +22,11 @@ more individual DOM operations than expected. **Angular** was consistently
 the slowest at initial render, likely due to the startup cost of change
 detection and bundle size.
 
-## Best performance by scenario
+## Best performance by (scenario) 
 
 **React** achieved the best initial render times for 500 and 1000 tasks.
 **Vue** was the fastest on small lists (100 tasks) and on updates. For
 deletion, **React** remained the fastest. Angular was consistently the
 slowest, which suggests a fixed initialization overhead rather than a pure
 scalability problem.
+
